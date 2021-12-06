@@ -44,4 +44,4 @@ void MotorControl(unsigned char speed, unsigned char rotate)
         digitalWrite(MOTOR_MT_N_PIN,LOW);
         softPwmWrite(MOTOR_MT_P_PIN,speed);
     }
-}
+} 
